@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: View
+Bundle-SymbolicName: com.qualityeclipse.geneology.view;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.qualityeclipse.geneology.view.Activator
+Bundle-Vendor: QUALITYECLIPSE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.draw2d
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
