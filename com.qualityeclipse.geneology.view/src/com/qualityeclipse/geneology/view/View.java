@@ -86,6 +86,11 @@ public class View extends ViewPart {
 		// viewer.getControl().setFocus();
 	}
 	
+	
+	/**
+	 * Use main/normal thread to test your Draw2d code if it does not use any Eclipse Library. 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		new View().run();
 	}
